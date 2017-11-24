@@ -1,6 +1,6 @@
 {
   "name": "australian-business-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "validate australian business number",
   "main": "index.js",
   "scripts": {
