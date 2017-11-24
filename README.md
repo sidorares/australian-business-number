@@ -1,4 +1,4 @@
-# tfn
+# abn
 validate Australian Business Number. Also validates ACN, ARBN and ARSN
 
 ## usage:
