@@ -87,10 +87,6 @@ module.exports.validateABN = function validateABN(abn) {
   }
 };
 
-console.log(module.exports.validateABN(process.argv[2]));
-console.log(module.exports.validateACN(process.argv[2]));
-console.log(module.exports.generateABNfromACN(process.argv[2]));
-
 // console.log(module.exports.generateABNfromACN(process.argv[2]));
 
 // 53 004 085 616
