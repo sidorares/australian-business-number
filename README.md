@@ -8,9 +8,11 @@ validate Australian Business Number. Also validates ACN, ARBN and ARSN
 
 
 ```js
-var abn = require('australian-business-number');
+var validateABN = require('australian-business-number').validateABN;
+// alternatively: `import { validateABN } from 'australian-business-number';`
+// other functions defined: `validateACN`, `generateABNfromACN`
 //...
-var abnStatus = abn('53 004 085 615');
+var abnStatus = validateABN('53 004 085 615');
 console.log(abnStatus);
 // logs { valid: false, suggestion: '53004085616' }
 
